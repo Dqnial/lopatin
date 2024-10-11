@@ -215,7 +215,8 @@ p {
   margin-left: 45px;
 }
 
-.about__lower-portfolio-list h3 {
+.about__lower-portfolio-list h3,
+.about__lower-portfolio-list p {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
@@ -439,6 +440,7 @@ p {
   max-width: 830px;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 72px;
 }
 
 .results__numbers-title {
@@ -457,7 +459,6 @@ p {
 }
 
 .results__numbers {
-  margin-top: 72px;
 }
 
 .footer {
@@ -485,6 +486,131 @@ p {
 
 .footer__email {
   font-size: 20px;
-  font-weight: normal;
   color: #fff;
+  font-weight: normal;
+}
+
+@media (max-width: 1669px) {
+  .tasks__inner {
+    margin-left: 100px;
+    padding-bottom: 150px;
+  }
+  .tasks__image {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about__image-wheel {
+    max-width: 441px;
+    margin: 0 auto;
+  }
+  .about__company-text p {
+    margin: 0 auto;
+  }
+  .about__company-text p {
+    margin-top: 24px;
+  }
+  .about__lower-summary {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+  .stages__wrapper-item-text {
+    padding: 32px;
+  }
+  .results__numbers-row {
+    gap: 64px;
+    justify-content: center;
+  }
+  .footer__inner img {
+    bottom: -35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .stages__wrapper-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .stages__wrapper-item-text {
+    margin-left: 0;
+    width: auto;
+  }
+  .stages__wrapper-item-number-bg {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__inner {
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 170px;
+  }
+  .header__left,
+  .header__right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header__right-about h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .header__right {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+  .header__left img {
+    max-width: 100px;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .tasks__inner {
+    margin-left: 0px;
+  }
+  .tasks__image {
+    max-width: 400px;
+  }
+  .about__docs-wrapper {
+    margin-top: 48px;
+    padding: 48px 0;
+  }
+  .about__docs-title {
+    margin-bottom: 48px;
+  }
+  .about__docs-row {
+    gap: 56px;
+  }
+  .about__docs-row p {
+    margin-top: 16px;
+  }
+  .section__title,
+  h1,
+  h2,
+  h3 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .results__numbers-title {
+    font-size: 30px !important;
+    font-weight: bold !important;
+  }
+  .about__lower {
+    margin-top: 64px;
+  }
+  .about__lower-summary {
+    margin-left: 0;
+  }
+  .about__lower-portfolio {
+    margin-left: 0;
+  }
+  .stages__inner {
+    padding: 64px 0;
+  }
 }

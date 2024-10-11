@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lopatin</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="style/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="style/reset.css" />
@@ -90,10 +88,14 @@
               “Штурвал” проектной культуры
             </h2>
             <div class="row align-items-center">
-              <div class="col-md-6">
+              <div
+                class="about__image-wheel col-xl-6 col-lg-12 d-sm-flex justify-content-sm-center flex-sm-column d-xl-block"
+              >
                 <img src="img/about-image.png" alt="" />
               </div>
-              <div class="col-md-6 about__company-text">
+              <div
+                class="col-xl-6 col-lg-12 d-sm-flex justify-content-sm-center flex-sm-column d-xl-block about__company-text"
+              >
                 <p class="about__company-text-first">
                   <strong>Проектный офис</strong> – специализированная
                   организационная структура, предназначенная для поддержки
@@ -150,7 +152,7 @@
             </div>
             <div class="about__lower">
               <div class="row">
-                <div class="col-md-5">
+                <div class="col-xl-5">
                   <div class="about__lower-summary text-center">
                     <p>
                       В течение нескольких месяцев я выпускаю от 50 до 100
@@ -171,7 +173,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-xl-7">
                   <div class="about__lower-portfolio">
                     <ul class="about__lower-portfolio-list">
                       <h3>1. Стандарт управления проектами</h3>
@@ -414,20 +416,20 @@
                   <p class="p-text stages__wrapper-item-text-p">
                     Этап 1. Фундамент
                   </p>
-                  <div class="p-text stages__wrapper-item-text-p">
+                  <p class="p-text stages__wrapper-item-text-p">
                     На первом этапе определяются ближайшие и долгосрочные цели
                     создания проектного офиса. Необходимо трезво оценить уровень
                     зрелости культуры проектного управления компании, провести
                     встречи с ключевыми участниками проектов для обсуждения
                     текущих проблем и задач. Оцениваются текущие возможности.
-                  </div>
-                  <div class="p-text stages__wrapper-item-text-p">
+                  </p>
+                  <p class="p-text stages__wrapper-item-text-p">
                     На основе обследования составляется план краткосрочных и
                     долгосрочных действий. Определяются структура, функции и
                     границы полномочий создаваемой структуры, Этап завершается,
                     когда обеспечено финансирование и назначен/набрана
                     необходимая команда
-                  </div>
+                  </p>
                 </div>
               </div>
               <div class="stages__wrapper-item d-flex justify-content-center">
@@ -442,7 +444,7 @@
                   <p class="p-text stages__wrapper-item-text-p">
                     Этап 2. Быстрые результаты
                   </p>
-                  <div class="p-text stages__wrapper-item-text-p">
+                  <p class="p-text stages__wrapper-item-text-p">
                     При ограниченности финансовых и временных ресурсов
                     необходимо добиться быстрых результатов. На этапе 2
                     проектный офис создается для реализации краткосрочных
@@ -451,12 +453,12 @@
                     проектного офиса требуется решение насущных вопросов,
                     ликвидация разрывов в коммуникациях и «узких мест»,
                     выявленных ключевыми заинтересованными сторонами.
-                  </div>
+                  </p>
                   <ul class="about__lower-portfolio-list">
-                    <h3>
+                    <p>
                       Поддержка проектов на практике даёт быстрые результаты и
                       может выражаться в следующем:
-                    </h3>
+                    </p>
                     <li class="about__lower-portfolio-item">
                       <p>- Инвентаризация текущего портфеля проектов</p>
                     </li>
@@ -499,12 +501,12 @@
                   <p class="p-text stages__wrapper-item-text-p">
                     Этап 3. Реализация долгосрочных инициатив
                   </p>
-                  <div class="p-text stages__wrapper-item-text-p">
+                  <p class="p-text stages__wrapper-item-text-p">
                     Этап направлен на совершенствование и оптимизацию процессов,
                     обучение персонала, развитие проектной культуры.
-                  </div>
+                  </p>
                   <ul class="about__lower-portfolio-list">
-                    <h3>Ключевые факторы успеха :</h3>
+                    <p>Ключевые факторы успеха :</p>
                     <li class="about__lower-portfolio-item">
                       <p>- Адаптация методологии под процессы компании</p>
                     </li>
@@ -562,16 +564,16 @@
       </section>
       <section class="results">
         <div class="results__inner">
-          <h2 class="section__title results__title">Результаты внедрения</h2>
-          <p class="p-text results__subtitle">
-            Пример практических результатов внедрения проектного офиса в цифрах.
-            Показатели в каждом случае будут отличаться. Перечень измеримых
-            показателей, на которые должно повлиять внедрение проектного офиса,
-            определяется на старте проекта.
-          </p>
           <div class="results__numbers container">
-            <div class="row">
-              <div class="col-md-4">
+            <h2 class="section__title results__title">Результаты внедрения</h2>
+            <p class="p-text results__subtitle">
+              Пример практических результатов внедрения проектного офиса
+              в цифрах. Показатели в каждом случае будут отличаться. Перечень
+              измеримых показателей, на которые должно повлиять внедрение
+              проектного офиса, определяется на старте проекта.
+            </p>
+            <div class="row results__numbers-row">
+              <div class="col-xl-4 col-lg-6">
                 <div
                   class="results__numbers-upper d-flex align-items-end justify-content-center"
                 >
@@ -589,7 +591,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xl-4 col-lg-6">
                 <div
                   class="results__numbers-upper d-flex align-items-end justify-content-center"
                 >
@@ -607,7 +609,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-xl-4 col-lg-12">
                 <div
                   class="results__numbers-upper d-flex align-items-end justify-content-center"
                 >
@@ -635,14 +637,12 @@
         <div class="footer__inner text-center">
           <a href="#">+7 (999) 555 08 88</a>
           <p class="footer__email p-text">lopatin@mail.ru</p>
-          <img src="img/elbrus-mountain-silh.png" alt="" />
+          <img
+            src="img/elbrus-mountain-silhouette-260nw-528513301 copy.png"
+            alt=""
+          />
         </div>
       </div>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
